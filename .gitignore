@@ -30,3 +30,5 @@ dependency-reduced-pom.xml
 
 # Log
 *.log
+
+out/
