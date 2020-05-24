@@ -12,7 +12,6 @@ public class Rotate {
         if (nums == null || nums.length == 0) return;
         if (k <= 0) return;
 
-
         for (int i = 0; i < k; i++) {
             int length = nums.length;
 
