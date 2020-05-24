@@ -32,6 +32,12 @@ class LinkedList {
 + 查找/新增/删除：O(log n)
 + Redis使用跳表来设计：https://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html
 
+## 解题步骤
++ 5-10分钟，读题和思考
++ 有思路，自己写，不然看题解
++ 默写背诵，熟练
++ 开始自己写（闭卷）
+
 ## 栈Stack
 + todo
 
