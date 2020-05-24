@@ -22,4 +22,12 @@ public class Rotate {
             nums[0] = temp;
         }
     }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7};
+        new Rotate().rotate(nums, 3);
+        for (int num : nums) {
+            System.out.print(num + ",");
+        }
+    }
 }

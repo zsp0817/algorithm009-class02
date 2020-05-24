@@ -22,4 +22,13 @@ public class RemoveDuplicates {
         }
         return i + 1;
     }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{0,0,1,1,1,2,2,3,3,4};
+        int length = new RemoveDuplicates().removeDuplicates(nums);
+        System.out.println(length);
+        for (int num : nums) {
+            System.out.print(num + ",");
+        }
+    }
 }
