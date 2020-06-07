@@ -2,7 +2,7 @@ package com.zsp.algorithm.w2;
 
 /**
  * Created by zhangshaopeng on 2020/5/26.
- *
+ * <p>
  * 有效的字母异位数
  * https://leetcode-cn.com/problems/valid-anagram/
  */
@@ -26,7 +26,7 @@ public class ValidAnagram {
         }
 
         for (int count : counts) {
-            if(count > 0) return false;
+            if (count > 0) return false;
         }
         return true;
     }

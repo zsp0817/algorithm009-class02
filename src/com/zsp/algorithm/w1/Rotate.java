@@ -2,7 +2,7 @@ package com.zsp.algorithm.w1;
 
 /**
  * Created by zhangshaopeng on 2020/5/24.
- *
+ * <p>
  * 旋转数组
  * https://leetcode-cn.com/problems/rotate-array/
  */
@@ -17,7 +17,7 @@ public class Rotate {
 
             int temp = nums[length - 1];
             for (int n = nums.length - 1; n > 0; n--) {
-                nums[n] = nums[n-1];
+                nums[n] = nums[n - 1];
             }
             nums[0] = temp;
         }

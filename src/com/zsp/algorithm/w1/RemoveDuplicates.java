@@ -1,12 +1,8 @@
 package com.zsp.algorithm.w1;
 
-import java.util.Arrays;
-
-import static java.util.stream.Collectors.groupingBy;
-
 /**
  * Created by zhangshaopeng on 2020/5/24.
- *
+ * <p>
  * 删除排序数组中的重复项
  * https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
  */
@@ -26,7 +22,7 @@ public class RemoveDuplicates {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{0,0,1,1,1,2,2,3,3,4};
+        int[] nums = new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
         int length = new RemoveDuplicates().removeDuplicates(nums);
         System.out.println(length);
     }
